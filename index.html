@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/@c-frame/aframe-physics-system@4.2.2/dist/aframe-physics-system.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sphere position="-0 25 -1.4" radius="0.65" color="#EF2D5E" dynamic-body></a-sphere>
+      <a-rectangle
+        position = "0 0 0"
+       rotation="85 0 0"
+        width="4"
+        height="15"
+        color="#FF00FF"
+               static-body
+               ></a-rectangle>
+      <a-cylinder
+        position="0 -.7 -15"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-cylinder
+        position="-.5 -.7 -15.5"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-cylinder
+        position=".5 -.7 -15.5"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-cylinder
+        position="1 -.7 -16"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-cylinder
+        position="-1 -0.7 -16"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-cylinder
+        position="0 -0.9 -16"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-cylinder
+        position="-1.5 -0.9 -16.5"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-cylinder
+        position="-.5 -0.9 -16.5"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      
+      <a-cylinder
+        position="1.5 -0.9 -16.5"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        static-body        
+      ></a-cylinder>
+      <a-cylinder
+        position=".5 -.9 -16.5"
+        radius="0.15"
+        height="1.2"
+        color="#FF00"
+        dynamic-body        
+      ></a-cylinder>
+      <a-plane
+        position="0 -1.5 -4.5"
+        rotation="-90 0 0"
+        width="4"
+        height="40"
+        color="#e5a06c"
+               static-body
+      ></a-plane>
+    </a-scene>
+  </body>
+</html>
+
